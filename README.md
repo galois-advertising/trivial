@@ -24,10 +24,10 @@
 
 1. 打开`命令提示符`:开始->运行->输入cmd
 
-2. 运行下面命令即可在`D:/trivial`下创建所有文件夹
+2. 运行下面命令即可在`D:\trivial`下创建所有文件夹
 
 ```shell
-cd D:/trivial
+cd D:\trivial
 python process.py mkdir employee.txt 
 ```
 
