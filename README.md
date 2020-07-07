@@ -17,20 +17,21 @@
 
 实际情况可根据你的路径来的出。
 
+安装`python` [点击我下载安装](https://www.python.org/downloads/) 如果有就不用安装了
+
 ## 使用
 
-1. 安装`python` [点击我下载安装](https://www.python.org/downloads/)
 
-2. 打开`命令提示符`:开始->运行->输入cmd
+1. 打开`命令提示符`:开始->运行->输入cmd
 
-3. 运行下面命令即可在`D:/trivial`下创建所有文件夹
+2. 运行下面命令即可在`D:/trivial`下创建所有文件夹
 
 ```shell
 cd D:/trivial
 python process.py mkdir employee.txt 
 ```
 
-4. 运行下列命令即可将`D:/trivial/data/`中的文件分发到到不同的文件夹
+3. 运行下列命令即可将`D:/trivial/data/`中的文件分发到到不同的文件夹
 
 ```shell
 cd D:/trivial
