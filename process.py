@@ -42,7 +42,7 @@ def arrange(list_file, data_path):
         for emp in emp_list: 
             name, id = emp[0], emp[1]
             for file, filepath in data_files.items():
-                if name in file: 
+                if name in file or id in file: 
                     try: 
                         copyfile(filepath, os.sep.join([dirname(emp), file]))
                         print "cp [%s] to [%s]" % (filepath, dirname(emp))
