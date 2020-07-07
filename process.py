@@ -9,12 +9,13 @@ def get_emp_list(list_file):
     with open(list_file, "r") as f: 
         for line in f.readlines(): 
             line = line.strip()
-            employees.append(re.split(r'[;,\t ]+',line))
+            if len(line) != 0:
+                employees.append([line[8:], line[0:8]])
     return employees
 
 
 def dirname(e):
-    return "emp-%s-%s" % (e[0], e[1])
+    return "emp-%s-%s" % (e[1], e[0])
 
 
 def mkdir(list_file): 
