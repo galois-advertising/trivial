@@ -34,7 +34,7 @@ python process.py mkdir employee.txt
 3. 运行下列命令即可将`H:\退休人员社会化电子版`中的文件分发到到不同的文件夹
 
 ```shell
-cd D:/trivial
+cd D:\trivial
 python process.py arrange employee.txt "H:\退休人员社会化电子版" 
 ```
 
